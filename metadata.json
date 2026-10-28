@@ -1,0 +1,6 @@
+{
+  "name": "Simulador y Laboratorio de Guías de Onda",
+  "description": "Aplicación educativa interactiva para guías de onda electromagnéticas, potencia, modos TE/TM, cavidades resonantes, tutor socrático y constancia digital.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

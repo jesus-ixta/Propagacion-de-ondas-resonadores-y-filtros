@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: white !important;
+  }
+  header, footer, nav, button {
+    display: none !important;
+  }
+  #certificate-print-area {
+    box-shadow: none !important;
+    border-width: 6px !important;
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    page-break-inside: avoid;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
